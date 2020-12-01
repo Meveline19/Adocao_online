@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-white bg-dark">
+  <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/contact">Página Principal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/loja">Loja Pet<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/serv">Serviços</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Notícias
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="http://evelinemaria19.pythonanywhere.com/post">Encontrados</a>
+          <a class="dropdown-item" href="http://evelinemaria19.pythonanywhere.com/posts">Desaparecidos</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h1 class="display-4"><img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"> Pet Shop ONLINE<img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></h1>
+
+{% extends "layout.html" %}
+{% block conteudo %}
+<div class="jumbotron">
+
+<head>
+  <body>
+    <div class="card">
+      <center>
+
+      <div class="card-deck">
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2020/05/16/01/18/dog-toys-5175628__340.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Brinquedos para Cães</h5>
+      <p class="card-text">Leve para seu bixinho um presente perfeito e que o deixe feliz. Uma bolinha especial para alegrar seu cãozinho.</p>
+      <p class="card-text"><small class="text-muted">brinquedos por:</small></p>
+      <h5><p class="text-danger">R$ 24,90</p></h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2015/09/03/09/01/cat-920190_960_720.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Brinquedos para Gatos</h5>
+      <p class="card-text">Leve para seu amiguinho um presente especial. Uma pelúcia de brinquedo para enganar seu gatinho e deixa-lo muito feliz.</p>
+      <p class="card-text"><small class="text-muted">brinquedos por:</small></p>
+      <h5><p class="text-danger">R$ 22,49</p></h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://images-americanas.b2w.io/produtos/01/00/img/1254706/0/1254706097_1GG.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Brinquedos para Aves</h5>
+      <p class="card-text">Deixe sua Ave contente com um brinquedo cheio de surpresas. Leve muita diversão para sua Ave alada.</p>
+      <p class="card-text"><small class="text-muted">Brinquedos por:</small></p>
+      <h5><p class="text-danger">R$ 48,90</p></h5>
+    </div>
+  </div>
+</div>
+       </center>
+
+  </body>
+ </head>
+
+</div>
+{% endblock %}
+
+
