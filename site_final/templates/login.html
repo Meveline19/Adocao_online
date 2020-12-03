@@ -1,0 +1,70 @@
+<! -- Navbar do Site onde o usuario pode fazer login, cadastro, sair da página e pedir ajuda(ver informações). Logo abaixo da Navbar temos o nome do Site.  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/home">Início</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/about">Cadastro<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/about">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/serv">Ajuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/home">Sair</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<h1 class="display-4"><img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"> Adoção Online<img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></h1>
+
+{% extends "layout.html" %}
+{% block conteudo %}
+<div class="jumbotron">
+<!DOCTYPE html>
+    <html lang="pt-BR" dir="ltr">
+        <head>
+            <link rel="stylesheet" type="text/css" href="Adocao_online/site_final/static/css/estilo.css">
+            <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+            <meta charset="utf-8">
+            <title>Tela de Login | HTML | CSS</title>
+        </head>
+
+        <body>
+          <center>
+
+           <div class="card-body">
+               <img src="https://cdn.pixabay.com/photo/2016/06/28/18/04/animals-1485100__340.png" width="300" height="260" class="rounded float-left" alt="...">
+               <img src="https://cdn.pixabay.com/photo/2016/06/28/18/04/animals-1485100__340.png" width="300" height="260" class="rounded float-right" alt="...">
+
+                <div class="card-body">
+                 <div class="login">
+                    <center>
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" class="usuario" width="100" height="100" alt="">
+                    <h1>Login</h1>
+                    <form>
+                      <p>Usuário</p>
+                        <input type="text" name="" placeholder="Insira seu nome de usuário">
+                      <p>Senha</p>
+                        <input type="password" name="" placeholder="Insira sua senha">
+                        <input type="submit" href="http://evelinemaria19.pythonanywhere.com/contact" name="" value="Login"
+                        <p></p>
+                      <a href="#">Esqueceu a senha?</a><br>
+                      <a href="#">Ainda não possui uma conta?</a>
+                    </center>
+                    </form>
+                 </div>
+
+                </div>
+            </div>
+          </center>
+        </body>
+    </html>
+</div>
+{% endblock %}

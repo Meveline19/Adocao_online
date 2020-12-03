@@ -7,16 +7,6 @@ def homepage():
     return render_template('index.html')
 
 @app.route('/')
-@app.route('/layout')
-def layoutpage():
-    return render_template('layout.html')
-
-@app.route('/')
-@app.route('/about')
-def aboutpage():
-    return render_template('about.html')
-
-@app.route('/')
 @app.route('/contact')
 def contactpage():
     return render_template('contact.html')
