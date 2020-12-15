@@ -1,16 +1,16 @@
-<!-- (NAVBAR)fica no topo do site, onde tem os atalhos para navegar pelo site -->
+<!-- Topo do site(navbar), onde tem os atalhos para navegar pelo site -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/contact">Página Principal</a>
+      <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/home">Início</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/loja">Loja Pet</a>
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/login">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/serv">Serviços</a>
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/infor">Ajuda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/home">Sair</a>
@@ -18,7 +18,7 @@
         </ul>
       </div>
     </nav>
-<!-- (NOME DO SITE)Logomarca com titulo do site -->
+<!-- Logomarca com titulo do site -->
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand"><h1 class="display-4">
@@ -26,25 +26,24 @@
        Patinhas do Bem
        </h1></a>
     </div>
- </nav>
+</nav>
 
+<!-- Informações que o usuario precisa para logar o site corretamente -->
 {% extends "layout.html" %}
 {% block conteudo %}
-<!-- (CARD e BOTTON)Aqui fica a parte que o usuario entra pelo botão para logar no site -->
 <center>
     <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="240" height="200" class="rounded float-left" alt="...">
     <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="240" height="200" class="rounded float-right" alt="...">
     <div class="card text-white bg-dark mb-3" style="max-width: 35rem;">
         <div class="card-body">
-          <h4 class="card-title">Entre em contato!</h4>
-            <p class="card-text">Nossa loja está disponível em todas as redes sociais! Entre em contato para agendar sua entregar e confirmar sua compra! Trabalhamos com confiança e um ótimo atendimento!</p>
-            <p><img src="https://cdn.pixabay.com/photo/2013/07/12/14/06/arrows-147753__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></p>
-            <a href="http://evelinemaria19.pythonanywhere.com/compr" class="btn btn-primary">Acessar!</a>
+          <h4 class="card-title">Informações!</h4>
+            <p></p>
+            <p class="card-text">Este site foi desenvolvido por meio de um projeto do Instituto Federal de Educação, Ciência e Tecnologia do Ceará IFCE-Campus Aracati, tem como objetivo propor aos clientes e usuários, produtos e serviços de ótima qualidade com um preço que cabem no seu bolso. Para entrar no nosso site você deve colocar algum nome de usuário como por exemplo: "JoãoAlberto" e escolher uma senha: "******" com no mínimo 6 caracteres. Se você conseguir realizar este login estará entrando diretamente em nosso SITE.</p>
         </div>
     </div>
 </center>
 
-<!-- (CAROUSEL)Imagens relacionadas ao site -->
+<!-- Imagens relacionadas ao site -->
 <center>
     <head>
         <body>
@@ -72,8 +71,5 @@
         </body>
     </head>
 </center>
-<p></p>
-<p></p>
-
 
 {% endblock %}

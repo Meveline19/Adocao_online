@@ -35,3 +35,18 @@ def servicopage():
 @app.route('/loja')
 def lojapage():
     return render_template('loja.html')
+
+@app.route('/')
+@app.route('/infor')
+def ajudapage():
+    return render_template('infor.html')
+
+@app.route('/')
+@app.route('/compr')
+def comprepage():
+    return render_template('compra.html')
+
+@app.route('/')
+@app.route('/adocao')
+def adotepage():
+    return render_template('adote.html')

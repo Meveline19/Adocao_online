@@ -1,3 +1,4 @@
+<!-- Topo do site(navbar), onde tem os atalhos para navegar pelo site -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/contact">Página Principal</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,14 +21,18 @@
           <a class="dropdown-item" href="http://evelinemaria19.pythonanywhere.com/posts">Desaparecidos</a>
         </div>
       </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/home">Sair</a>
+        </li>
     </ul>
   </div>
 </nav>
 
+<!-- Imagens relacionadas ao site -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
              <div class="carousel-item active">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs3YCWnY_a-b8l3poCY_uvtbMaRBRm357VbA&usqp=CAU" width="500" height="300" class="d-block w-100" alt="...">
+                <img src="https://thumbs.jusbr.com/600x200/smart/imgs.jusbr.com/publications/images/19d09a39a9c2970cbe8ed5632a75bbfd" width="500" height="300" class="d-block w-100" alt="...">
              </div>
              <div class="carousel-item">
                 <img src="https://thumbs.jusbr.com/600x200/smart/imgs.jusbr.com/publications/artigo/159453318/embedded/1456772102623.jpg" width="500" height="300" class="d-block w-100" alt="...">
@@ -47,139 +52,145 @@
         </div>
       <p></p>
       <p></p>
-      <p></p>
 
-<h1 class="display-4"><img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"> Animais Desaparecidos<img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></h1>
+<!-- Logomarca com titulo do site -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><h1 class="display-5">
+      <img src="https://img.joyz.me/profile/b7df7adb-318e-4911-8e76-f03f3d7b662e.png" width="60" height="54" class="d-inline-block align-top">
+       Animais Desaparecidos
+       </h1></a>
+  </div>
+</nav>
+
+<!-- Todos os animais que estão desaparecidos -->
 {% extends "layout.html" %}
 {% block conteudo %}
-
-    <head>
-  <body>
-    <div class="card">
-      <center>
-
-      <div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2019/05/27/19/08/puppy-4233378__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDO Chocolate</h5>
-      <p class="card-text">Chocolate fugiu na rua quando estava passeando com seus donos. Todos estão tentando encontra-ló.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 08 de Setembro de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/03/09/10/24/dog-1246029__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDO Billy</h5>
-      <p class="card-text">Billy desapareceu em uma certa noite, seus donos foram a sua procura e billy não estava lá. Seus donos pedem a ajuda de todos.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 22 de Agosto de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2019/02/06/15/18/puppy-3979350__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDA Xuxu</h5>
-      <p class="card-text">A cachorrinha Xuxu, é uma cadelinha que fugiu de casa quando visinhos soltavam fogos de artifício. Por isso, a cacorrinha fugiu desesperada.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 31 de Julho de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-</div>
-<p></p>
-<div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/05/09/23/02/dog-2299482__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDO Rex</h5>
-      <p class="card-text">Este cachorrinho se perdeu de seus donos em um Hotel. Ninguém sabe ao certo onde o cachorrinho foi parar, o Hotel também tinha um caminho para praia.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 10 de Setembro de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDA Rosa</h5>
-      <p class="card-text">Rosa fugiu de casa depois de seus donos não trancarem o portão. Seus donos não tinham percebido o defeito na fechadura e acabou que o animal fugiu.</p>
-      <p class="card-text"><small class="text-muted">Desaparecida dia 27 de Agosto de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDA Linda</h5>
-      <p class="card-text">Linda é uma gata muito inteligente, fugiu depois que a casa de seus donos estava em incêndio. A dona está a sua procura urgente.</p>
-      <p class="card-text"><small class="text-muted">Desaparecida dia 04 de Julho de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-</div>
-<p></p>
-<div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/06/24/13/20/dog-2437739_960_720.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDA Charlotte</h5>
-      <p class="card-text">Esta cachorrinha fugiu na véspera de Ano Novo por motivo dos fogos de artifício.</p>
-      <p class="card-text"><small class="text-muted">Desaparecida dia 13 de Setembro de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2018/05/13/11/40/cat-3396156__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDO Flocos</h5>
-      <p class="card-text">Flocos fugiu de casa depois de seus donos sairem a negócios. O animal tem problemas de saúde e seus donos sentem muita falta.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 17 de Agosto de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/12/26/01/39/dog-1931356__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDO Pappy</h5>
-      <p class="card-text">Pappy é um cachorro treinado e muito inteligente, fugiu depois que a casa de seus donos foi assaltada. A dona está a procura urgente.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 29 de Julho de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-</div>
-<p></p>
-<div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/06/06/20/32/cat-1440323__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDA Lexa</h5>
-      <p class="card-text">Essa gata se perdeu de seus donos em uma Praia. Os donos querem encontrar sua amiguinha o mais rápido.</p>
-      <p class="card-text"><small class="text-muted">Desaparecida dia 19 de Setembro de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/08/11/17/15/dog-2632088__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDO Percy</h5>
-      <p class="card-text">Percy fugiu de casa depois de seus donos sairem de casa. O animal tem problemas de audição e seus donos sentem muita falta.</p>
-      <p class="card-text"><small class="text-muted">Desaparecido dia 20 de Agosto de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/01/30/16/12/cat-1169924__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">DESAPARECIDA Luna</h5>
-      <p class="card-text">Luna é uma gatinha treinada que desapareceu. Sua dona é uma criança autista que sofre com a falta o animalzinho.</p>
-      <p class="card-text"><small class="text-muted">Desaparecida dia 14 de Julho de 2020.</small></p>
-      <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
-    </div>
-  </div>
-</div>
-       </center>
-
-  </body>
- </head>
+<head>
+    <body>
+        <center>
+            <div class="card">
+                <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2019/05/27/19/08/puppy-4233378__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDO Chocolate</h5>
+                  <p class="card-text">Chocolate fugiu na rua quando estava passeando com seus donos. Todos estão tentando encontra-ló.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 08 de Setembro de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/03/09/10/24/dog-1246029__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDO Billy</h5>
+                  <p class="card-text">Billy desapareceu em uma certa noite, seus donos foram a sua procura e billy não estava lá. Seus donos pedem a ajuda de todos.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 22 de Agosto de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2019/02/06/15/18/puppy-3979350__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDA Xuxu</h5>
+                  <p class="card-text">A cachorrinha Xuxu, é uma cadelinha que fugiu de casa quando visinhos soltavam fogos de artifício. Por isso, a cacorrinha fugiu desesperada.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 31 de Julho de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+            </div>
+            <p></p>
+            <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/05/09/23/02/dog-2299482__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDO Rex</h5>
+                  <p class="card-text">Este cachorrinho se perdeu de seus donos em um Hotel. Ninguém sabe ao certo onde o cachorrinho foi parar, o Hotel também tinha um caminho para praia.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 10 de Setembro de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDA Rosa</h5>
+                  <p class="card-text">Rosa fugiu de casa depois de seus donos não trancarem o portão. Seus donos não tinham percebido o defeito na fechadura e acabou que o animal fugiu.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecida dia 27 de Agosto de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDA Linda</h5>
+                  <p class="card-text">Linda é uma gata muito inteligente, fugiu depois que a casa de seus donos estava em incêndio. A dona está a sua procura urgente.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecida dia 04 de Julho de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+            </div>
+            <p></p>
+            <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/06/24/13/20/dog-2437739_960_720.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDA Charlotte</h5>
+                  <p class="card-text">Esta cachorrinha fugiu na véspera de Ano Novo por motivo dos fogos de artifício.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecida dia 13 de Setembro de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2018/05/13/11/40/cat-3396156__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDO Flocos</h5>
+                  <p class="card-text">Flocos fugiu de casa depois de seus donos sairem a negócios. O animal tem problemas de saúde e seus donos sentem muita falta.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 17 de Agosto de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/12/26/01/39/dog-1931356__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDO Pappy</h5>
+                  <p class="card-text">Pappy é um cachorro treinado e muito inteligente, fugiu depois que a casa de seus donos foi assaltada. A dona está a procura urgente.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 29 de Julho de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+            </div>
+            <p></p>
+            <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/06/06/20/32/cat-1440323__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDA Lexa</h5>
+                  <p class="card-text">Essa gata se perdeu de seus donos em uma Praia. Os donos querem encontrar sua amiguinha o mais rápido.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecida dia 19 de Setembro de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/08/11/17/15/dog-2632088__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDO Percy</h5>
+                  <p class="card-text">Percy fugiu de casa depois de seus donos sairem de casa. O animal tem problemas de audição e seus donos sentem muita falta.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecido dia 20 de Agosto de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/01/30/16/12/cat-1169924__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DESAPARECIDA Luna</h5>
+                  <p class="card-text">Luna é uma gatinha treinada que desapareceu. Sua dona é uma criança autista que sofre com a falta o animalzinho.</p>
+                  <p class="card-text"><small class="text-muted">Desaparecida dia 14 de Julho de 2020.</small></p>
+                  <div class="alert alert-danger" role="alert">Entre em contato: (88)xxxx-xxxx</div>
+                </div>
+              </div>
+            </div>
+        </center>
+    </body>
+</head>
 
 {% endblock %}

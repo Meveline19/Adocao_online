@@ -21,6 +21,23 @@ body{
     padding: 68px 28px;
 }
 
+.email{
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    left: 112px;
+}
+
+h1{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+
 .usuario{
     border-radius: 50%;
     position: absolute;

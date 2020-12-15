@@ -1,4 +1,4 @@
-
+<!-- Topo do site(navbar), onde tem os atalhos para navegar pelo site -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/contact">Página Principal</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +21,14 @@
           <a class="dropdown-item" href="http://evelinemaria19.pythonanywhere.com/posts">Desaparecidos</a>
         </div>
       </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/home">Sair</a>
+        </li>
     </ul>
   </div>
 </nav>
 
+<!-- Imagens relacionadas ao site -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
              <div class="carousel-item active">
@@ -49,139 +53,162 @@
       <p></p>
       <p></p>
       <p></p>
-<h1 class="display-4"><img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"> Adoção Online<img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></h1>
+
+<!-- Logomarca com titulo do site -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><h1 class="display-4">
+      <img src="https://img.joyz.me/profile/b7df7adb-318e-4911-8e76-f03f3d7b662e.png" width="70" height="64" class="d-inline-block align-top">
+       Patinhas do Bem
+       </h1></a>
+  </div>
+</nav>
+
+<!-- Aqui fica todos os animais que estão para a adoção -->
 {% extends "layout.html" %}
 {% block conteudo %}
-
-    <head>
-  <body>
-
-    <div class="card">
-      <center>
-      <div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2019/11/18/00/38/dog-4633734__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Plutos</h5>
-      <p class="card-text">Plutos foi encontrado na rua em condições de fome. O animalzinho também tem HETEROCROMIA, a famosa condição em que os olhos tem cores diferentes. Graças ao nosso abrigo, hoje ele brinca com todos seus amiguinhos animais a procura de uma família. </p>
-      <p class="card-text"><small class="text-muted">Encontrado dia 15 de Setembro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Boby</h5>
-      <p class="card-text">Boby ainda filhote, foi encontrado em um terreno baldio onde sofria violência pelos seus antigos donos. Nosso abrigo o encontrou, hoje ele está alegre e a procura de uma família que ame-o de verdade.</p>
-      <p class="card-text"><small class="text-muted">Encontrado dia 23 de Agosto de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2014/05/03/01/04/puppy-336707__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Nala</h5>
-      <p class="card-text">Nossa queridinha Nala, é uma cadelinha que foi encontrada récem-nascida a beira de uma estrada. A mãe da cadelinha foi encontrada no lixo próximo de onde Nala estava. Hoje nossa cadelinha está a espera de uma família.</p>
-      <p class="card-text"><small class="text-muted">Encontrada dia 30 de Julho de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-</div>
-<p></p>
-      <div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Luke</h5>
-      <p class="card-text">Luke tem uma história curta. Ainda recém-nascido seus antigos donos sem condições de criar, enviaram o gatinho para nosso abrigo. Hoje ele está crescendo forte e esperando uma família. </p>
-      <p class="card-text"><small class="text-muted">Entregue dia 05 de Novembro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/12/18/18/42/kittens-1916542__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Fred e Scoty</h5>
-      <p class="card-text">Essa dupla de filhotes-gêmeos, foram encontrados perto de uma escola municipal, onde a gata mãe morreu. Nossa equipe trouxe essa duplinha para fazer parte do abrigo.</p>
-      <p class="card-text"><small class="text-muted">Encontrados dia 02 de Outubro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/08/23/08/33/cats-eyes-2671903_960_720.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Hannah</h5>
-      <p class="card-text">Nossa gatinha Hannah foi encontrada debilitada com vários machucados, foi resgatada e tratada com muito carinho. Hoje nossa Hannah está muito bem e a espera de uma família.</p>
-      <p class="card-text"><small class="text-muted">Encontrada dia 26 de Agosto de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-</div>
-<p></p>
-      <div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2014/10/01/16/36/siamese-468814__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Ted</h5>
-      <p class="card-text">Esse gato estiloso foi encontrado nas ruas em estado selvagem e com muita fome. Nosso amiguinho Ted veio aos poucos se adaptar com muito amor e carinho.</p>
-      <p class="card-text"><small class="text-muted">Encontrado dia 11 de Outubro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2015/11/03/12/58/dog-1020790__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Pérola</h5>
-      <p class="card-text">Essa cachorrinha sapeca foi encontrada por meio de uma denúncia de violência. Pérola passou por um período de tratamento e recuperação, hoje ela se encontra bem e esperando um lar.</p>
-      <p class="card-text"><small class="text-muted">Encontrada dia 06 de Outubro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Jake</h5>
-      <p class="card-text">Jake foi encontrado em uma viajem no Canadá, onde estava machucado e passando fome. Pessoas de bom coração o encontraram e tiveram contato com nosso abrigo. hoje Jake está forte e esperando um lar.</p>
-      <p class="card-text"><small class="text-muted">Encontrado dia 20 de Agosto de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-</div>
-<p></p>
-<div class="card-deck">
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/06/02/23/05/cat-2367564__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Neco</h5>
-      <p class="card-text">Esse gato fofo foi encontrado na rua em estado de risco com muitas feridas. Nosso amiguinho Neco passou muito tempo de recuperação e hoje ele está feliz a espera de você.</p>
-      <p class="card-text"><small class="text-muted">Encontrado dia 09 de Outubro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/07/12/21/58/cat-1513184__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lady</h5>
-      <p class="card-text">Essa gatinha sapeca foi encontrada nas ruas com muita fome. Lady passou por um período de alimentação e tratamento, hoje ela se encontra bem e esperando um lar.</p>
-      <p class="card-text"><small class="text-muted">Encontrada dia 21 de Outubro de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/08/10/14/22/dog-2623167__340.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Estrela</h5>
-      <p class="card-text">Estrela foi encontrada em um circo desconhecido, onde estava passando por condições desumanas. Pessoas denunciaram e tiveram contato com nosso abrigo. hoje Estrela está forte e esperando um lar.</p>
-      <p class="card-text"><small class="text-muted">Encontrado dia 30 de Agosto de 2020.</small></p>
-      <a class="btn btn-success" href="#" role="button">Adotar!</a>
-    </div>
-  </div>
-</div>
-
+<head>
+    <body>
+        <center>
+            <div class="card">
+                <div class="card-deck">
+                <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2019/11/18/00/38/dog-4633734__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Plutos</h5>
+                  <p class="card-text">Plutos foi encontrado na rua em condições de fome. O animalzinho também tem HETEROCROMIA, a famosa condição em que os olhos tem cores diferentes. Graças ao nosso abrigo, hoje ele brinca com todos seus amiguinhos animais a procura de uma família. </p>
+                  <p class="card-text"><small class="text-muted">Encontrado dia 15 de Setembro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Boby</h5>
+                  <p class="card-text">Boby ainda filhote, foi encontrado em um terreno baldio onde sofria violência pelos seus antigos donos. Nosso abrigo o encontrou, hoje ele está alegre e a procura de uma família que ame-o de verdade.</p>
+                  <p class="card-text"><small class="text-muted">Encontrado dia 23 de Agosto de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2014/05/03/01/04/puppy-336707__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nala</h5>
+                  <p class="card-text">Nossa queridinha Nala, é uma cadelinha que foi encontrada récem-nascida a beira de uma estrada. A mãe da cadelinha foi encontrada no lixo próximo de onde Nala estava. Hoje nossa cadelinha está a espera de uma família.</p>
+                  <p class="card-text"><small class="text-muted">Encontrada dia 30 de Julho de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+            </div>
+            <p></p>
+                  <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Luke</h5>
+                  <p class="card-text">Luke tem uma história curta. Ainda recém-nascido seus antigos donos sem condições de criar, enviaram o gatinho para nosso abrigo. Hoje ele está crescendo forte e esperando uma família. </p>
+                  <p class="card-text"><small class="text-muted">Entregue dia 05 de Novembro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/12/18/18/42/kittens-1916542__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fred e Scoty</h5>
+                  <p class="card-text">Essa dupla de filhotes-gêmeos, foram encontrados perto de uma escola municipal, onde a gata mãe morreu. Nossa equipe trouxe essa duplinha para fazer parte do abrigo.</p>
+                  <p class="card-text"><small class="text-muted">Encontrados dia 02 de Outubro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/08/23/08/33/cats-eyes-2671903_960_720.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hannah</h5>
+                  <p class="card-text">Nossa gatinha Hannah foi encontrada debilitada com vários machucados, foi resgatada e tratada com muito carinho. Hoje nossa Hannah está muito bem e a espera de uma família.</p>
+                  <p class="card-text"><small class="text-muted">Encontrada dia 26 de Agosto de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+            </div>
+            <p></p>
+                  <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2014/10/01/16/36/siamese-468814__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ted</h5>
+                  <p class="card-text">Esse gato estiloso foi encontrado nas ruas em estado selvagem e com muita fome. Nosso amiguinho Ted veio aos poucos se adaptar com muito amor e carinho.</p>
+                  <p class="card-text"><small class="text-muted">Encontrado dia 11 de Outubro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2015/11/03/12/58/dog-1020790__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pérola</h5>
+                  <p class="card-text">Essa cachorrinha sapeca foi encontrada por meio de uma denúncia de violência. Pérola passou por um período de tratamento e recuperação, hoje ela se encontra bem e esperando um lar.</p>
+                  <p class="card-text"><small class="text-muted">Encontrada dia 06 de Outubro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jake</h5>
+                  <p class="card-text">Jake foi encontrado em uma viajem no Canadá, onde estava machucado e passando fome. Pessoas de bom coração o encontraram e tiveram contato com nosso abrigo. hoje Jake está forte e esperando um lar.</p>
+                  <p class="card-text"><small class="text-muted">Encontrado dia 20 de Agosto de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+            </div>
+            <p></p>
+            <div class="card-deck">
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/06/02/23/05/cat-2367564__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Neco</h5>
+                  <p class="card-text">Esse gato fofo foi encontrado na rua em estado de risco com muitas feridas. Nosso amiguinho Neco passou muito tempo de recuperação e hoje ele está feliz a espera de você.</p>
+                  <p class="card-text"><small class="text-muted">Encontrado dia 09 de Outubro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/07/12/21/58/cat-1513184__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lady</h5>
+                  <p class="card-text">Essa gatinha sapeca foi encontrada nas ruas com muita fome. Lady passou por um período de alimentação e tratamento, hoje ela se encontra bem e esperando um lar.</p>
+                  <p class="card-text"><small class="text-muted">Encontrada dia 21 de Outubro de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2017/08/10/14/22/dog-2623167__340.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Estrela</h5>
+                  <p class="card-text">Estrela foi encontrada em um circo desconhecido, onde estava passando por condições desumanas. Pessoas denunciaram e tiveram contato com nosso abrigo. hoje Estrela está forte e esperando um lar.</p>
+                  <p class="card-text"><small class="text-muted">Encontrado dia 30 de Agosto de 2020.</small></p>
+                  <a class="btn btn-success" href="#" role="button">Adotar!</a>
+                </div>
+              </div>
+            </div>
        </center>
+    </body>
+</head>
+<p></p>
+<p></p>
+<p></p>
 
-  </body>
- </head>
-
+<!-- Aqui fica a parte onde o usuario entra na loja do site -->
+<center>
+    <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="250" height="210" class="rounded float-left" alt="...">
+    <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="250" height="210" class="rounded float-right" alt="...">
+    <div class="card text-white bg-dark mb-3" style="max-width: 35rem;">
+        <div class="card-body">
+          <h4 class="card-title">Visitar Loja!</h4>
+            <p class="card-text">Adote aqueles animais que não tiveram a sorte de ter um lar! Visite nossa loja para presentear seu novo amiguinho!</p>
+            <p><img src="https://cdn.pixabay.com/photo/2013/07/12/14/06/arrows-147753__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></p>
+            <a href="http://evelinemaria19.pythonanywhere.com/loja" class="btn btn-primary">Acessar!</a>
+        </div>
+    </div>
+</center>
 
 {% endblock %}

@@ -1,3 +1,4 @@
+<!-- Topo do site(navbar), onde tem os atalhos para navegar pelo site -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/contact">Página Principal</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +21,14 @@
           <a class="dropdown-item" href="http://evelinemaria19.pythonanywhere.com/posts">Desaparecidos</a>
         </div>
       </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://evelinemaria19.pythonanywhere.com/home">Sair</a>
+        </li>
     </ul>
   </div>
 </nav>
 
+<!-- Imagens relacionadas ao site -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
              <div class="carousel-item active">
@@ -47,9 +52,17 @@
         </div>
       <p></p>
       <p></p>
-      <p></p>
 
-<h1 class="display-4"><img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"> Animais Encontrados<img src="https://cdn.pixabay.com/photo/2014/04/03/00/39/paw-prints-308974__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></h1>
+<!-- Logomarca com titulo do site -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><h1 class="display-5">
+      <img src="https://img.joyz.me/profile/b7df7adb-318e-4911-8e76-f03f3d7b662e.png" width="60" height="54" class="d-inline-block align-top">
+       Animais Encontrados
+       </h1></a>
+  </div>
+</nav>
+
 {% extends "layout.html" %}
 {% block conteudo %}
 
@@ -197,5 +210,21 @@
   </body>
  </head>
 
-</div>
+<p></p>
+<p></p>
+<p></p>
+<! -- Aqui fica a parte que o usuario entra para a logar no site -->
+<center>
+    <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="250" height="210" class="rounded float-left" alt="...">
+    <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="250" height="210" class="rounded float-right" alt="...">
+    <div class="card text-white bg-dark mb-3" style="max-width: 35rem;">
+        <div class="card-body">
+          <h4 class="card-title">Ajude!</h4>
+            <p class="card-text">Pessoas estão a procura de seus amiguinhos de estimação. Entre e ajude na procura dos animais desaparecidos!</p>
+            <p><img src="https://cdn.pixabay.com/photo/2013/07/12/14/06/arrows-147753__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></p>
+            <a href="http://evelinemaria19.pythonanywhere.com/posts" class="btn btn-primary">Acessar!</a>
+        </div>
+    </div>
+</center>
+
 {% endblock %}
