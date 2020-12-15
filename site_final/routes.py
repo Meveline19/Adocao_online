@@ -50,3 +50,8 @@ def comprepage():
 @app.route('/adocao')
 def adotepage():
     return render_template('adote.html')
+
+@app.route('/')
+@app.route('/tratamen')
+def tratamentopage():
+    return render_template('tratam.html')

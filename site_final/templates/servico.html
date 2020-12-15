@@ -1,4 +1,4 @@
-<!-- Topo do site(navbar), onde tem os atalhos para navegar pelo site -->
+<!-- (NAVBAR)fica no topo do site, onde tem os atalhos para facilitar o uso -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="http://evelinemaria19.pythonanywhere.com/contact">Página Principal</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,82 +28,86 @@
   </div>
 </nav>
 
-<!-- Logomarca com titulo do site -->
-    <nav class="navbar navbar-light bg-light">
+<!-- (TITULO)Logomarca com titulo da página de serviços -->
+<nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand"><h1 class="display-4">
       <img src="https://img.joyz.me/profile/b7df7adb-318e-4911-8e76-f03f3d7b662e.png" width="70" height="64" class="d-inline-block align-top">
        Tratamentos
        </h1></a>
   </div>
- </nav>
+</nav>
 <p></p>
 <p></p>
 
-<!-- Todos os serviços propostos -->
+<!-- (CARDS)Todos os serviços propostos -->
 {% extends "layout.html" %}
 {% block conteudo %}
 <head>
     <body>
         <center>
-            <div class="card">
-                <div class="card-deck">
+            <div class="card-deck">
               <div class="card">
                 <img src="https://cdn.pixabay.com/photo/2019/04/01/21/25/dog-salon-4096457__340.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Tosa para cães</h5>
                   <p class="card-text">Todo cãozinho precisa dar aquela aparadinha, e nada melhor do que nossos serviços. Seu bixinho tratado e bem cuidado.</p>
                   <p class="card-text"><small class="text-muted">Tosa por: </small></p>
-                  <h5><p class="text-danger">R$ 98,99</p></h5>
-
+                  <h5><p class="text-danger">R$ 48,99</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
               <div class="card">
                 <img src="https://blogbergvet.com.br/wp-content/uploads/2019/07/Como-tosar-gatos-em-casa.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tosa e tratamento para Gatos</h5>
+                  <h5 class="card-title">Tosa para Gatos</h5>
                   <p class="card-text">Todos os gatos amam aquele tratamento com carinho, e nada melhor do que nossos serviços. Seu bixinho tratado e bem cuidado.</p>
                   <p class="card-text"><small class="text-muted">Tosa e Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 95,99</p></h5>
+                  <h5><p class="text-danger">R$ 45,99</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
               <div class="card">
                 <img src="https://4.bp.blogspot.com/-wCQDC_4JkPc/VPuN04OAU-I/AAAAAAAAAnI/RX90rGe1v_Q/s1600/photo%2B3%2B(17).JPG" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tratamento para Coelhos</h5>
+                  <h5 class="card-title">Tosa para Coelhos</h5>
                   <p class="card-text">Os pequenos comedores de cenoura amam um tratamento relaxante, seu bixinho tratado e bem cuidado com os nossos serviços.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 80,99</p></h5>
+                  <h5><p class="text-danger">R$ 40,99</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
-              </div>
+            </div>
             <p></p>
-              <div class="card-deck">
+            <div class="card-deck">
               <div class="card">
-                <img src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia26399/cuidados-com-os-pelos-cdc.jpg" class="card-img-top" alt="...">
+                <img src="https://cdn.pixabay.com/photo/2016/02/18/18/37/puppy-1207816__340.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tratamento para Cavalos</h5>
+                  <h5 class="card-title">Tratamento para Cães</h5>
                   <p class="card-text">Também temos um serviço diferenciado para seu lindo cavalo. Melhor tosa e tratamento que seu garanhão pode ter.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 180,99</p></h5>
+                  <h5><p class="text-danger">R$ 110,99</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
              <div class="card">
-                <img src="https://i.pinimg.com/474x/60/2c/c7/602cc714fc13572cf531fbd67b12b778.jpg" class="card-img-top" alt="...">
+                <img src="https://cdn.pixabay.com/photo/2016/07/10/21/47/cat-1508613__340.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tratamento para Hamster</h5>
+                  <h5 class="card-title">Tratamento para Gatos</h5>
                   <p class="card-text">Também temos um serviço diferenciado para seu hamsterzinho. Melhor tosa e tratamento que seu amiguinho pode ter.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 68,90</p></h5>
+                  <h5><p class="text-danger">R$ 98,90</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
               <div class="card">
-                <img src="https://i.pinimg.com/originals/f5/58/b4/f558b4db3143573a7a8fea1408bb1491.jpg" class="card-img-top" alt="...">
+                <img src="https://cdn.pixabay.com/photo/2020/04/07/20/36/bunny-5014814__340.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tratamento para Porquinho da Índia</h5>
+                  <h5 class="card-title">Tratamento para Coelhos</h5>
                   <p class="card-text">Também temos um serviço diferenciado para seu porquinho da Índia. Melhor tosa e tratamento que seu amiguinho de patas pequenas pode ter.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 75,90</p></h5>
+                  <h5><p class="text-danger">R$ 95,90</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
             </div>
@@ -116,16 +120,17 @@
                   <p class="card-text">Todo cãozinho precisa dar aquele banho, e nada melhor do que nossos serviços. Seu bixinho tratado e bem cheiroso.</p>
                   <p class="card-text"><small class="text-muted">Banho por: </small></p>
                   <h5><p class="text-danger">R$ 120,00</p></h5>
-
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
               <div class="card">
                 <img src="https://www.petlove.com.br/dicas/wp-content/uploads/2018/11/gato-tomando-banho-1280x720.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tratamento e Banho para Gatos</h5>
+                  <h5 class="card-title">Banho especial para Gatos</h5>
                   <p class="card-text">Todo Gato precisa dar aquele tratamento com banho, e nada melhor do que nossos serviços. Seu bixinho tratado e bem cheiroso.</p>
                   <p class="card-text"><small class="text-muted">Tratamento e Banho por: </small></p>
-                  <h5><p class="text-danger">R$ 90,00</p></h5>
+                  <h5><p class="text-danger">R$ 99,90</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
               <div class="card">
@@ -134,37 +139,41 @@
                   <h5 class="card-title">Banho para Coelhos</h5>
                   <p class="card-text">Todo coelho precisa dar aquele banho, e nada melhor do que nossos serviços. Seu bixinho tratado e bem cheiroso.</p>
                   <p class="card-text"><small class="text-muted">Banho por: </small></p>
-                  <h5><p class="text-danger">R$ 85,90</p></h5>
+                  <h5><p class="text-danger">R$ 88,90</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
-              </div>
+            </div>
             <p></p>
-              <div class="card-deck">
+            <div class="card-deck">
               <div class="card">
-                <img src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia16100/cuidados-com-o-banho-de-cavalos-vetprofissional.jpg" class="card-img-top" alt="...">
+                <img src="https://i.pinimg.com/236x/18/c7/66/18c766bcf2cc32cc4574fa99e3d723f7.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Banho para Cavalos</h5>
-                  <p class="card-text">Também temos um serviço diferenciado para seu lindo cavalo. Melhor banho para seu amigo ficar cheiroso.</p>
+                  <h5 class="card-title">Enfeites para Cães</h5>
+                  <p class="card-text">Também temos um serviço diferenciado para seu lindo doguinho. Melhores enfeites para seu amigo ficar deslumbrante.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 200,00</p></h5>
+                  <h5><p class="text-danger">R$ 8,00</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
              <div class="card">
-                <img src="https://ae01.alicdn.com/kf/Hb617c75a40724bc0af6c9500cea19536i/Pequeno-pet-bing-ferramenta-hamster-sala-de-areia-eco-friendly-hamster-casa-de-banho-inofensiva-chinchila.jpg_960x960.jpg" class="card-img-top" alt="...">
+                <img src="https://f.i.uol.com.br/fotografia/2013/02/16/243816-600x600-1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Banho para Hamster</h5>
-                  <p class="card-text">Também temos um serviço diferenciado para seu Hamster. Melhor banho para seu amigo ficar cheiroso.</p>
+                  <h5 class="card-title">Enfeites para Gatos</h5>
+                  <p class="card-text">Também temos um serviço diferenciado para seu lindo gatinho. Melhores enfeites para seu amigo ficar deslumbrante.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 60,90</p></h5>
+                  <h5><p class="text-danger">R$ 7,90</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
               <div class="card">
-                <img src="https://i.ytimg.com/vi/JT9tL_Q0xp4/maxresdefault.jpg" class="card-img-top" alt="...">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT278wVGJ04bfNthd5T593nrho-vUswD3aeWg&usqp=CAU" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Banho para Porquinho da Índia</h5>
-                  <p class="card-text">Também temos um serviço diferenciado para seu lindo porquinho da Índia. Melhor banho para seu amigo ficar cheiroso.</p>
+                  <h5 class="card-title">Enfeites para Coelhos</h5>
+                  <p class="card-text">Também temos um serviço diferenciado para seu lindo coelhinho. Melhores enfeites para seu amigo ficar deslumbrante.</p>
                   <p class="card-text"><small class="text-muted">Tratamento por: </small></p>
-                  <h5><p class="text-danger">R$ 71,90</p></h5>
+                  <h5><p class="text-danger">R$ 6,90</p></h5>
+                  <a href="http://evelinemaria19.pythonanywhere.com/tratamen" class="btn btn-danger">Marcar Horário!</a>
                 </div>
               </div>
             </div>
@@ -175,7 +184,7 @@
 <p></p>
 <p></p>
 
-<!-- Aqui fica a parte onde o usuario entra nas noticias do site -->
+<!-- (CARD e BOTTON)Aqui fica a parte onde o usuario entra nas noticias do site -->
 <center>
     <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="250" height="210" class="rounded float-left" alt="...">
     <img src="https://portalcoroado.com.br/home/wp-content/uploads/2018/08/patinhas-do-bem.jpg" width="250" height="210" class="rounded float-right" alt="...">
@@ -184,10 +193,10 @@
           <h4 class="card-title">Notícias!</h4>
             <p class="card-text">Veja ótimas notícias de animais sendo resgatados e entregues aos seus donos. Ajude também aquelas pessoas que estão a procura de seu animal desaparecido!</p>
             <p><img src="https://cdn.pixabay.com/photo/2013/07/12/14/06/arrows-147753__340.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></p>
-            <a href="http://evelinemaria19.pythonanywhere.com/post" class="btn btn-primary">Acessar!</a>
+            <a href="http://evelinemaria19.pythonanywhere.com/serv" class="btn btn-secondary">Voltar!</a><a href="http://evelinemaria19.pythonanywhere.com/post" class="btn btn-primary">Acessar!</a>
         </div>
     </div>
 </center>
 
-{% endblock %}
+{% endblock conteudo %}
 
